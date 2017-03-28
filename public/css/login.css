@@ -1,0 +1,213 @@
+@media screen and (min-width: 0px) and (max-width: 800px){
+	body{
+		margin: 0px;
+		padding:0px;
+		background-color: #EFEFEF;
+		font-family: "lucida Grande",Verdana,"Microsoft YaHei";
+		background:url(/css/img/login_bk.gif);
+	}
+
+	/* logo_img*/
+	#logo_img {
+		height: 150px;
+		margin-bottom:20px;
+	}
+
+	/** index登录页 */
+	#adm_login{
+		text-align: center;
+		padding: 50px 0px;
+		font-size:18px;
+		width: 100%;
+		margin: auto;
+		margin-top: 0px;
+		margin-bottom: 0px;
+		background-color: rgba(255, 255, 255, 0.0);
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px;
+		/*box-shadow: 0px 0px 20px #000000;
+		-webkit-box-shadow: 0px 0px 20px #000000;
+		-moz-box-shadow: 0px 0px 20px #000000;*/
+		font-family: "lucida Grande",Verdana,"Microsoft YaHei";
+	}
+	.txt_input{
+		font-family: "lucida Grande",Verdana,"Microsoft YaHei";
+		-webkit-appearance: none;
+		 -moz-appearance: none;
+			  appearance: none;
+		outline: 0;
+		border: 1px solid rgba(0, 162, 202, 0.5);
+		background-color: rgba(255, 255, 255, 0.4);
+		width: 80%;
+		border-radius: 3px;
+		padding: 20px 15px;
+		margin: 0 auto 10px auto;
+		display: block;
+		text-align: center;
+		font-size: 18px;
+		color: #008EB7;
+		-webkit-transition-duration: 0.25s;
+			  transition-duration: 0.25s;
+		font-weight: 300;
+		box-sizing: border-box;
+	}
+	input::-webkit-input-placeholder {
+		color: #008EB7;
+	}
+	input:-moz-placeholder {
+		color: #008EB7;
+	}
+	input::-moz-placeholder {
+		color: #008EB7;
+	}
+	input:-ms-input-placeholder {
+		color: #008EB7;
+	}
+
+	.txt_input:hover {
+		background-color: #fff;
+	}
+	.txt_input:focus {
+		background-color:white;
+		width: 95%;
+		color: #008EB7;
+	}
+	.sub_button{
+		font-family: "lucida Grande",Verdana,"Microsoft YaHei";
+		-webkit-appearance: none;
+		 -moz-appearance: none;
+			  appearance: none;
+		outline: 0;
+		margin: 0 auto 10px auto;
+		display: block;
+		background-color: #008EB7;
+		border: 0;
+		padding: 20px 15px;
+		color: #ffffff;
+		border-radius: 3px;
+		width: 80%;
+		cursor: pointer;
+		font-size: 18px;
+		-webkit-transition-duration: 0.25s;
+			  transition-duration: 0.25s;
+	}
+	.sub_button:hover {
+		background-color: #00A2CA;
+		color: #ffffff;
+	}
+
+	/* 错误提醒 */
+	.error {
+		font-family: "lucida Grande",Verdana,"Microsoft YaHei";
+		color: red;
+		font-size: 15px;
+	}
+}
+@media only screen and (min-width: 800px){
+	body{
+		margin: 0px;
+		padding:0px;
+		background-color: #EFEFEF;
+		font-family: "lucida Grande",Verdana,"Microsoft YaHei";
+		background:url(/css/img/login_bk.gif);
+	}
+
+	/* logo_img*/
+	#logo_img {
+		height: 150px;
+		margin-bottom:20px;
+	}
+
+	/** index登录页 */
+	#adm_login{
+		text-align: center;
+		padding:50px 20px;
+		font-size:18px;
+		width:650px; 
+		margin:auto;
+		margin-top:100px;
+		margin-bottom:100px;
+		background-color: rgba(255, 255, 255, 0.7);
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px;
+		box-shadow: 0px 0px 20px #000000;
+		-webkit-box-shadow: 0px 0px 20px #000000;
+		-moz-box-shadow: 0px 0px 20px #000000;
+		font-family: "lucida Grande",Verdana,"Microsoft YaHei";
+	}
+	.txt_input{
+		font-family: "lucida Grande",Verdana,"Microsoft YaHei";
+		-webkit-appearance: none;
+		 -moz-appearance: none;
+			  appearance: none;
+		outline: 0;
+		border: 1px solid rgba(0, 162, 202, 0.5);
+		background-color: rgba(255, 255, 255, 0.4);
+		//background-color: rgba(0, 162, 202, 0.3);
+		width: 400px;
+		border-radius: 3px;
+		padding: 20px 15px;
+		margin: 0 auto 10px auto;
+		display: block;
+		text-align: center;
+		font-size: 18px;
+		color: #008EB7;
+		-webkit-transition-duration: 0.25s;
+			  transition-duration: 0.25s;
+		font-weight: 300;
+		box-sizing: border-box;
+	}
+	input::-webkit-input-placeholder {
+		color: #008EB7;
+	}
+	input:-moz-placeholder {
+		color: #008EB7;
+	}
+	input::-moz-placeholder {
+		color: #008EB7;
+	}
+	input:-ms-input-placeholder {
+		color: #008EB7;
+	}
+
+	.txt_input:hover {
+		background-color: #fff;
+	}
+	.txt_input:focus {
+		background-color:white;
+		width: 600px;
+		color: #008EB7;
+	}
+	.sub_button{
+		font-family: "lucida Grande",Verdana,"Microsoft YaHei";
+		-webkit-appearance: none;
+		 -moz-appearance: none;
+			  appearance: none;
+		outline: 0;
+		margin: 0 auto 10px auto;
+		display: block;
+		background-color: #008EB7;
+		border: 0;
+		padding: 20px 15px;
+		color: #ffffff;
+		border-radius: 3px;
+		width: 400px;
+		cursor: pointer;
+		font-size: 18px;
+		-webkit-transition-duration: 0.25s;
+			  transition-duration: 0.25s;
+	}
+	.sub_button:hover {
+		background-color: #00A2CA;
+		color: #ffffff;
+	}
+
+	/* 错误提醒 */
+	.error {
+		font-family: "lucida Grande",Verdana,"Microsoft YaHei";
+		color: red;
+		font-size: 15px;
+	}
+}

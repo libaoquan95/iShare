@@ -1,0 +1,416 @@
+@media screen and (min-width: 0px) and (max-width: 800px){
+	/* 页面主体 */
+	div#main_bk {
+		width: 100%;
+		margin-top: 90px;
+	}
+	div#main {
+		width: 100%;
+		margin: auto;
+		padding-top: 5px;
+		padding-bottom: 15px;
+	}
+
+	/* url链接 */
+	.url_code_list {
+		list-style-type: none;
+	}
+	.url_code {
+		font-family: "lucida Grande",Verdana,"Microsoft YaHei";
+		background-color: #FFFFFF;
+		padding: 10px 20px;
+		border-left: #99CC33 solid 5px;
+		margin-top: 20px;
+		word-break: break-all;
+	}
+	.url_code  a{
+		color: #044e97;
+		text-decoration: none;
+		font-size: 13px;
+	}
+	.url_code  a:hover{
+		text-decoration: underline;
+		color: #0767c8;
+	}
+	.url_code  span{
+		font-size: 12px;
+	}
+
+	/* 删除按钮 */
+	.del_button{
+		float: right;
+		color: #ffffff;
+		background-color: #E27171;
+		padding: 8px 20px;
+		border-style: none;
+		font-family: "lucida Grande",Verdana,"Microsoft YaHei";
+		text-align: center;
+		font-size: 13px;
+		margin-left: 10px;
+		margin-bottom: 10px;
+		border-radius: 5px;
+	}
+	.del_button:hover{
+		color: #ffffff;
+		background-color: #DE4B4B;
+	}
+
+	/* 暂停分享按钮 */
+	.pause_button{
+		float: right;
+		color: #ffffff;
+		background-color: #B7E657;
+		padding: 8px 20px;
+		border-style: none;
+		font-family: "lucida Grande",Verdana,"Microsoft YaHei";
+		text-align: center;
+		font-size: 13px;
+		margin-left: 10px;
+		margin-bottom: 10px;
+		border-radius: 5px;
+	}
+	.pause_button:hover{
+		color: #ffffff;
+		background-color: #9ECE3D;
+	}
+
+	/* 继续分享按钮 */
+	.continue_button{
+		float: right;
+		color: #ffffff;
+		background-color: #57CEF1;
+		padding: 8px 20px;
+		border-style: none;
+		font-family: "lucida Grande",Verdana,"Microsoft YaHei";
+		text-align: center;
+		font-size: 13px;
+		margin-left: 10px;
+		margin-bottom: 10px;
+		border-radius: 5px;
+	}
+	.continue_button:hover{
+		color: #ffffff;
+		background-color: #33C5F1;
+	}
+
+	/* 信息按钮 */
+	.info_button{
+		float: right;
+		color: #ffffff;
+		background-color: #A5A3A3;
+		padding: 8px 20px;
+		border-style: none;
+		font-family: "lucida Grande",Verdana,"Microsoft YaHei";
+		text-align: center;
+		font-size: 13px;
+		margin-left: 10px;
+		margin-bottom: 10px;
+		border-radius: 5px;
+	}
+	.info_button:hover{
+		color: #ffffff;
+		background-color: #777676;
+	}
+	/* 网址基本信息表格 */
+	.url_base_info_sheet
+	{
+		border-collapse: collapse;
+		width: 100%;
+		border: 1px solid #00A2CA;
+		margin-bottom: 10px;
+		word-break: break-all;
+		font-size: 13px;
+	}
+	.url_base_info_sheet_head {
+		background-color: #EFEFEF;
+		color: #000000;
+		border: 1px solid #D8D6D6;
+		padding: 10px;
+		width: 100px;
+		word-break: break-all;
+	}
+	.url_base_info_sheet_cont {
+		background-color: #ffffff;
+		color: #000000;
+		border: 1px solid #D8D6D6;
+		padding: 10px;
+		word-break: break-all;
+	}
+
+	/* 点击加载下一页按钮 */
+	.next_page_but_normal {
+		width: 49%;
+		float: right;
+		margin: 30px 0px;
+		height: 50px;
+		font-size: 13px;
+		border-style: none;
+		padding: 5px;
+		background-color: #008EB7;
+		color: white;
+		font-family: "lucida Grande",Verdana,"Microsoft YaHei";
+		text-align: center;
+	}
+	.next_page_but_normal:hover{
+		background-color: #00A2CA;
+	}
+
+	.next_page_but_disabled {
+		width: 49%;
+		float: right;
+		margin: 30px 0px;
+		height: 50px;
+		font-size: 13px;
+		border: 1px solid #666666;
+		padding: 5px;
+		background-color: rgba(255, 255, 255, 0.1);
+		color: #666666;
+		font-family: "lucida Grande",Verdana,"Microsoft YaHei";
+		text-align: center;
+	}
+	/* 点击加载上一页按钮 */
+	.last_page_but_normal {
+		width: 49%;
+		float:left;
+		margin: 30px 0px;
+		height: 50px;
+		font-size: 13px;
+		border-style: none;
+		padding: 5px;
+		background-color: #008EB7;
+		color: white;
+		font-family: "lucida Grande",Verdana,"Microsoft YaHei";
+		text-align: center;
+	}
+	.last_page_but_normal:hover{
+		background-color: #00A2CA;
+	}
+
+	.last_page_but_disabled {
+		width: 49%;
+		float:left;
+		margin: 30px 0px;
+		height: 50px;
+		font-size: 13px;
+		border: 1px solid #666666;
+		padding: 5px;
+		background-color: rgba(255, 255, 255, 0.1);
+		color: #666666;
+		font-family: "lucida Grande",Verdana,"Microsoft YaHei";
+	}
+
+}
+
+@media only screen and (min-width: 800px){
+	/* 页面主体 */
+	div#main_bk {
+		width: 100%;
+		margin-top: 70px;
+	}
+	div#main {
+		width: 80%;
+		margin: auto;
+		padding-top: 15px;
+		padding-bottom: 20px;
+	}
+
+	/* url链接 */
+	.url_code_list {
+		list-style-type: none;
+	}
+	.url_code {
+		font-family: "lucida Grande",Verdana,"Microsoft YaHei";
+		background-color: #FFFFFF;
+		padding: 10px 20px;
+		border-left: #99CC33 solid 5px;
+		//border-top: #DADADA solid 1px;
+		//border-bottom: #DADADA solid 1px;
+		//border-right: #DADADA solid 1px;
+		margin-top: 20px;
+		min-width: 600px;
+		border-radius: 0 10px 10px 0;
+		word-break: break-all;
+	}
+	.url_code  a{
+		color: #044e97;
+		text-decoration: none;
+		font-size: 17px;
+	}
+	.url_code  a:hover{
+		text-decoration: underline;
+		color: #0767c8;
+	}
+	.url_code  span{
+		font-size: 12px;
+	}
+
+	/* 删除按钮 */
+	.del_button{
+		float: right;
+		color: #ffffff;
+		background-color: #E27171;
+		padding: 8px 20px;
+		border-style: none;
+		font-family: "lucida Grande",Verdana,"Microsoft YaHei";
+		text-align: center;
+		font-size: 15px;
+		margin-left: 10px;
+		margin-bottom: 10px;
+		border-radius: 5px;
+	}
+	.del_button:hover{
+		color: #ffffff;
+		background-color: #DE4B4B;
+	}
+
+	/* 暂停分享按钮 */
+	.pause_button{
+		float: right;
+		color: #ffffff;
+		background-color: #B7E657;
+		padding: 8px 20px;
+		border-style: none;
+		font-family: "lucida Grande",Verdana,"Microsoft YaHei";
+		text-align: center;
+		font-size: 15px;
+		margin-left: 10px;
+		margin-bottom: 10px;
+		border-radius: 5px;
+	}
+	.pause_button:hover{
+		color: #ffffff;
+		background-color: #9ECE3D;
+	}
+
+	/* 继续分享按钮 */
+	.continue_button{
+		float: right;
+		color: #ffffff;
+		background-color: #57CEF1;
+		padding: 8px 20px;
+		border-style: none;
+		font-family: "lucida Grande",Verdana,"Microsoft YaHei";
+		text-align: center;
+		font-size: 15px;
+		margin-left: 10px;
+		margin-bottom: 10px;
+		border-radius: 5px;
+	}
+	.continue_button:hover{
+		color: #ffffff;
+		background-color: #33C5F1;
+	}
+
+	/* 信息按钮 */
+	.info_button{
+		float: right;
+		color: #ffffff;
+		background-color: #A5A3A3;
+		padding: 8px 20px;
+		border-style: none;
+		font-family: "lucida Grande",Verdana,"Microsoft YaHei";
+		text-align: center;
+		font-size: 15px;
+		margin-left: 10px;
+		margin-bottom: 10px;
+		border-radius: 5px;
+	}
+	.info_button:hover{
+		color: #ffffff;
+		background-color: #777676;
+	}
+	/* 网址基本信息表格 */
+	.url_base_info_sheet
+	{
+		border-collapse: collapse;
+		width: 100%;
+		border: 1px solid #00A2CA;
+		min-width: 600px;
+		margin-bottom: 10px;
+		word-break: break-all;
+	}
+	.url_base_info_sheet_head {
+		background-color: #EFEFEF;
+		color: #000000;
+		border: 1px solid #D8D6D6;
+		padding: 15px;
+		width: 100px;
+		word-break: break-all;
+	}
+	.url_base_info_sheet_cont {
+		background-color: #ffffff;
+		color: #000000;
+		border: 1px solid #D8D6D6;
+		padding: 15px;
+		word-break: break-all;
+	}
+
+	/* 点击加载下一页按钮 */
+	.next_page_but_normal {
+		width: 49%;
+		float: right;
+		margin: 30px 0px;
+		height: 50px;
+		font-size: 13px;
+		border-style: none;
+		padding: 5px;
+		background-color: #008EB7;
+		color: white;
+		font-family: "lucida Grande",Verdana,"Microsoft YaHei";
+		text-align: center;
+		border-radius: 6px;
+	}
+	.next_page_but_normal:hover{
+		background-color: #00A2CA;
+	}
+
+	.next_page_but_disabled {
+		width: 49%;
+		float: right;
+		margin: 30px 0px;
+		height: 50px;
+		font-size: 13px;
+		border: 1px solid #666666;
+		padding: 5px;
+		background-color: rgba(255, 255, 255, 0.1);
+		color: #666666;
+		font-family: "lucida Grande",Verdana,"Microsoft YaHei";
+		text-align: center;
+		border-radius: 6px;
+		border: #666666 solid 1px;
+	}
+	/* 点击加载上一页按钮 */
+	.last_page_but_normal {
+		width: 49%;
+		float: left;
+		margin: 30px 0px;
+		height: 50px;
+		font-size: 13px;
+		border-style: none;
+		padding: 5px;
+		background-color: #008EB7;
+		color: white;
+		font-family: "lucida Grande",Verdana,"Microsoft YaHei";
+		text-align: center;
+		border-radius: 6px;
+	}
+	.last_page_but_normal:hover{
+		background-color: #00A2CA;
+	}
+
+	.last_page_but_disabled {
+		width: 49%;
+		float: left;
+		margin: 30px 0px;
+		height: 50px;
+		font-size: 13px;
+		border: 1px solid #666666;
+		padding: 5px;
+		background-color: rgba(255, 255, 255, 0.1);
+		color: #666666;
+		font-family: "lucida Grande",Verdana,"Microsoft YaHei";
+		text-align: center;
+		border-radius: 6px;
+		border: #666666 solid 1px;
+	}
+}

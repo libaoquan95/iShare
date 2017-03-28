@@ -1,0 +1,151 @@
+@media screen and (min-width: 0px) and (max-width: 800px){
+	body {
+		background-color: #fff;
+	}
+	/* 页面主体 */
+	div#main_bk {
+		width: 100%;
+		margin: auto;
+		margin-top: 70px;
+		font-family: "lucida Grande",Verdana,"Microsoft YaHei";
+	}
+	div#topic_ground {
+		padding-top: 20px;
+		padding-bottom: 20px;
+		width: 100%;
+	}
+
+	#topic_ground p {
+		border-bottom: 1px solid #ABBDC1;
+		padding-bottom: 10px;
+		text-align: center;
+		margin-bottom: 10px;
+		font-size: 13px;
+	}
+
+	/* 话题列表 */
+	ul.topic_ground_list{
+		display: block;
+		list-style-type: disc;
+		-webkit-margin-before: 0em;
+		-webkit-margin-after: 1em;
+		-webkit-margin-start: 0px;
+		-webkit-margin-end: 0px;
+		-webkit-padding-start: 0px;
+		padding-left: 3%;
+	}
+	ul.topic_ground_list li{
+		float: left;
+		margin: 0 2% 10px 2%;
+		list-style: none;
+		width: 20%;
+		max-width: 96px;
+	}
+	ul.topic_ground_list li:hover{
+	}
+	ul.topic_ground_list li a{
+		color: #333300;
+		text-decoration: none;
+		font-size: 13px;
+	}
+
+	.topics_img {
+		width: 100%;
+		border-radius: 20%;
+	}
+	.topics_img_manage {
+		width: 100%;
+		border-radius: 20%;
+		transition:width 2s, height 2s;
+		-moz-transition:width 2s, height 2s, -moz-transform 2s; /* Firefox 4 */
+		-webkit-transition:width 2s, height 2s, -webkit-transform 2s; /* Safari and Chrome */
+		-o-transition:width 2s, height 2s, -o-transform 2s; /* Opera */
+	}
+	.topics_img_manage:hover {
+		transform:rotate(360deg);
+		-moz-transform:rotate(360deg); /* Firefox 4 */
+		-webkit-transform:rotate(360deg); /* Safari and Chrome */
+		-o-transform:rotate(360deg); /* Opera */
+	}
+}
+
+@media only screen and (min-width: 800px){
+	/* 页面主体 */
+	div#main_bk {
+		width: 80%;
+		margin: auto;
+		margin-top: 70px;
+		font-family: "lucida Grande",Verdana,"Microsoft YaHei";
+	}
+	div#topic_ground {
+		padding-top: 5px;
+		padding-bottom: 15px;
+		min-width: 800px;
+	}
+
+	.topic_ground_list p {
+		border-bottom: 1px solid #ABBDC1;
+		padding-bottom: 10px;
+		padding-top: 0px;
+		text-align: center;
+		margin-bottom: 0px;
+		margin-top:0;
+	}
+	#topic_ground p{
+		border-bottom: 1px solid #ABBDC1;
+		padding-bottom: 20px;
+		padding-top: 0px;
+		text-align: center;
+		margin-bottom: 10px;
+	}
+
+	/* 话题列表 */
+	ul.topic_ground_list{
+		display: block;
+		list-style-type: disc;
+		-webkit-margin-before: 0em;
+		-webkit-margin-after: 1em;
+		-webkit-margin-start: 0px;
+		-webkit-margin-end: 0px;
+		-webkit-padding-start: 0px;
+		-moz-margin-before: 0em;
+		-moz-margin-after: 1em;
+		-moz-margin-start: 0px;
+		-moz-margin-end: 0px;
+		-moz-padding-start: 0px;
+	}
+	ul.topic_ground_list li{
+		float: left;
+		margin: 0 10px 0px 0;
+		list-style: none;
+		padding: 10px;
+	}
+	ul.topic_ground_list li:hover{
+	}
+	ul.topic_ground_list li a{
+		color: #333300;
+		text-decoration: none;
+		font-size: 15px;
+	}
+
+	.topics_img {
+		height: 96px;
+		width: 96px;
+		border-radius: 15px;
+	}
+	.topics_img_manage {
+		height: 96px;
+		width: 96px;
+		border-radius: 15px;
+		transition:width 2s, height 2s;
+		-moz-transition:width 2s, height 2s, -moz-transform 2s; /* Firefox 4 */
+		-webkit-transition:width 2s, height 2s, -webkit-transform 2s; /* Safari and Chrome */
+		-o-transition:width 2s, height 2s, -o-transform 2s; /* Opera */
+	}
+	.topics_img_manage:hover {
+		transform:rotate(360deg);
+		-moz-transform:rotate(360deg); /* Firefox 4 */
+		-webkit-transform:rotate(360deg); /* Safari and Chrome */
+		-o-transform:rotate(360deg); /* Opera */
+	}
+}
